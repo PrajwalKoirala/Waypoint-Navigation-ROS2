@@ -1,13 +1,7 @@
-# initialize a robot on the middle of a a square grid map
-# the robot is either able to rotate or move forward
-# the robot position is described by x, y and theta
-# the robot is able to sense if it has reached a wall
-
-import cv2
 import numpy as np
 from matplotlib import pyplot as plt
 from matplotlib import animation
-import random
+
 
 Width = 400
 Height = 400
