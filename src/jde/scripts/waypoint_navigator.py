@@ -19,9 +19,6 @@ import rclpy
 from rclpy.duration import Duration
 from tf_transformations import quaternion_from_euler
 
-"""
-Basic navigation demo to go to poses.
-"""
 
 
 def poses_from_list(pose_list, navigator):
